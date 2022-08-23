@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon-32x32.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogr</title>
+    <link rel="stylesheet" href="public/css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/29f99118dd.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body id="app">
+    <main>
+
+        <section class="w-full h-[840px] xl:h-[600px] bg-no-repeat bg-[length:300%] xl:bg-auto rounded-bl-[90px] bg-hero-pattern-desktop bg-pos-hero-mobile xl:bg-pos-hero-desktop">
+            <desktop_navigation class="hidden xl:flex"></desktop_navigation>
+            <mobile_navigation class="xl:hidden"></mobile_navigation>
+            <div>
+                <h1 class="text-center pt-24 xl:pt-12">A modern publishing platform</h1>
+                <p class="text-center pt-2 mx-12 xl:mx-0 text-white text-2xl xl:text-lg opacity-75">Grow your audience and build your online brand</p>
+                <div class="m-auto w-fit pt-14">
+                    <button class="text-light-red bg-white mr-6 xl:mr-4 hover:bg-v-light-red hover:text-white">Start For Free</button>
+                    <button class="text-white border border-white hover:bg-white hover:text-v-light-red">Learn More</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="w-full xl:h-[112vh] bg-no-repeat bg-auto my-16 bg-none xl:bg-illustration-editor-desktop bg-pos-editor-desktop">
+            <h3 class="text-center py-20">Designed for the future</h3>
+            <img src="public/images/illustration-editor-mobile.svg" class="w-full pb-16 xl:hidden">
+            <div class="px-12 text-center xl:text-left xl:w-1/2 xl:pl-44 xl:pr-6">
+                <div class="pb-20">
+                    <h4 class="pb-4 px-4 xl:px-0">
+                        Introducing an extensible editor
+                    </h4>
+                    <p class="text-dark-gray leading-7 text-lg xl:text-base leading-8">
+                        Blogr features an exceedingly intuitive interface which lets you focus
+                        on one thing: creating content. The editor supports management of
+                        multiple blogs and allows easv manipulation or embeds such as images,
+                        videos, and markdown. extensibility with plugins and themes provide
+                        easy ways to add functionality or change the looks of a blog.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="pb-4">
+                        Robust content management
+                    </h4>
+                    <p class="text-dark-gray leading-7 text-lg xl:text-base leading-8">
+                        Flexible content management enables users to easily move through
+                        posts. Increase the usability of your blog by adding customized
+                        categories, sections, format, or flow. With this functionality, you're in
+                        full control.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="w-full bg-gradient-to-r from-v-dark-gray-blue to-v-dark-desaturated-blue h-[800px] xl:h-[400px] rounded-bl-[90px] rounded-tr-[90px] mt-[250px] xl:mt-0">
+            <div class="w-full h-full bg-no-repeat bg-auto rounded-bl-[90px] rounded-tr-[90px] flex flex-col xl:flex-row px-2 xl:px-36 bg-pattern-circles bg-pos-circles-mobile xl:bg-pos-circles-desktop">
+                <img class="w-[35rem] h-[35rem] m-auto relative top-[-250px] xl:top-[-70px]" src="images/illustration-phones.svg" alt="">
+                <div class="xl:pl-20 pr-2 py-4 xl:py-20 relative top-[-250px] xl:top-0">
+                    <h2 class="pb-4 text-center xl:text-left">State of the Art Infrastructure</h2>
+                    <p class="text-white opacity-70 text-xl xl:text-base text-center xl:text-left px-4 xl:px-0 leading-9">
+                        With reliability and speed in mind. worldwide data centers provide the
+                        backbone for ultra-fast connectivity. This ensures your site will load
+                        instantly, no matter where your readers are, keeping your site
+                        competitive.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="w-full h-[112vh] bg-no-repeat bg-auto my-16 bg-none xl:bg-illustration-laptop-desktop xl:bg-pos-laptop-desktop">
+            <div class="xl:w-1/2 xl:pr-48 xl:pl-6 float-right xl:pt-48">
+                <img src="public/images/illustration-laptop-mobile.svg" class="w-full xl:hidden">
+                <div class="pb-20">
+                    <h4 class="pb-8 xl:pb-4 text-center xl:text-left">
+                        Free, open, simple
+                    </h4>
+                    <p class="text-dark-gray leading-9 text-center xl:text-left px-4 xl:px-0 text-xl xl:text-base">
+                        Blogr is a free and open source application backed by a large
+                        community of helpful developers. It supports features such as code
+                        syntax highlighting, RSS feeds, social media integration, third-party
+                        commenting tools, and works seamlessly with Google Analytics. The
+                        architecture is clean and is relatively easy to learn.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="pb-8 xl:pb-4 text-center xl:text-left">
+                        Powerful tooling
+                    </h4>
+                    <p class="text-dark-gray leading-9 text-center xl:text-left px-4 xl:px-0 text-xl xl:text-base">
+                        Batteries included. We built a simple and straightforward CLI tool that
+                        makes customization and deployment a breeze, but capable of
+                        producing even the most complicated sites.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="flex flex-col lg:flex-row justify-between bg-v-dark-black-blue rounded-tr-[90px] text-white lg:pl-40 lg:pr-80  lg:py-20 font-ubuntu text-center lg:text-left text-xl lg:text-base">
+        <img src="public/images/logo.svg" alt="" class="h-fit py-20 max-w-[350px] w-[40%] m-auto md:m-0">
+
+        <div class="flex flex-col pb-6 lg:pb-0">
+            <p class="pb-4">Product</p>
+            <a class="hover:underline" href="#">Overview</a>
+            <a class="hover:underline" href="#">Pricing</a>
+            <a class="hover:underline" href="#">Marketplace</a>
+            <a class="hover:underline" href="#">Features</a>
+            <a class="hover:underline" href="#">Integration</a>
+        </div>
+
+        <div class="flex flex-col pb-6 lg:pb-0">
+            <p class="pb-4">Company</p>
+            <a class="hover:underline" href="#">About</a>
+            <a class="hover:underline" href="#">Team</a>
+            <a class="hover:underline" href="#">Blog</a>
+            <a class="hover:underline" href="#">Careers</a>
+        </div>
+
+        <div class="flex flex-col pb-12 lg:pb-0">
+            <p class="pb-4">Connect</p>
+            <a class="hover:underline" href="#">Contact</a>
+            <a class="hover:underline" href="#">Newsletter</a>
+            <a class="hover:underline" href="#">LinkedIn</a>
+        </div>
+    </footer>
+
+    <script src="public/js/site.js"></script>
+  </body>
+</html>
