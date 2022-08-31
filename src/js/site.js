@@ -1,12 +1,10 @@
 import { createApp } from 'vue'
 import '../css/styles.css'
 
-import dekstop_navigation from './components/desktop_navigation.vue'
-import mobile_navigation from './components/mobile_navigation.vue'
+import hello_world from './components/hello_world.vue'
 
 const app = createApp({})
 
-app.component('desktop_navigation', dekstop_navigation);
-app.component('mobile_navigation', mobile_navigation);
+app.component('hello-world', hello_world);
 
 app.mount('#app')

@@ -1,21 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;500;600&family=Ubuntu:wght@400;500;700&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 html, body { @apply w-full h-full; }
-
-h1, h2, h3, h4, h5 { @apply font-overpass tracking-tighter; }
-
-h1 { @apply text-5xl md:text-3xl mx-16 md:mx-0 md:text-6xl md:font-bold text-white leading-tight; }
-h2 { @apply text-5xl md:text-4xl text-white; }
-h3 { @apply text-4xl md:text-3xl md:text-4xl text-v-dark-desaturated-blue; }
-h4 { @apply text-4xl md:text-3xl text-v-dark-desaturated-blue leading-9; }
-h5 { @apply text-2xl; }
-
-a { @apply text-dark-gray py-1; }
-
-p { @apply font-ubuntu; }
-
-button { @apply rounded-full md:rounded-3xl py-3 px-4 font-bold text-2xl md:text-base; }
