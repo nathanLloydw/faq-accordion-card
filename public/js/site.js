@@ -17482,13 +17482,13 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
-  "class": "text-center md:text-left"
+  "class": "text-center lg:text-left"
 }, "FAQ", -1
 /* HOISTED */
 );
 
 var _hoisted_2 = {
-  "class": "flex flex-col w-[79%] m-auto md:m-0 pt-4"
+  "class": "flex flex-col w-[79%] m-auto lg:m-0 pt-4"
 };
 var _hoisted_3 = ["onClick"];
 var _hoisted_4 = {
@@ -17497,7 +17497,7 @@ var _hoisted_4 = {
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", null, [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.FAQs, function (faq) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
-      "class": "py-2 md:py-4 border-b border-gray-200 cursor-pointer",
+      "class": "py-2 lg:py-4 border-b border-gray-200 cursor-pointer",
       onClick: function onClick($event) {
         return $setup.activeFAQ = faq.id;
       }

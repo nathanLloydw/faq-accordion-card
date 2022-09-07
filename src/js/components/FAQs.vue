@@ -15,9 +15,9 @@
 
 <template>
   <div>
-    <h1 class="text-center md:text-left">FAQ</h1>
-    <div class="flex flex-col w-[79%] m-auto md:m-0 pt-4">
-      <div class="py-2 md:py-4 border-b border-gray-200 cursor-pointer" v-for="faq in FAQs" @click="activeFAQ = faq.id">
+    <h1 class="text-center lg:text-left">FAQ</h1>
+    <div class="flex flex-col w-[79%] m-auto lg:m-0 pt-4">
+      <div class="py-2 lg:py-4 border-b border-gray-200 cursor-pointer" v-for="faq in FAQs" @click="activeFAQ = faq.id">
         <div class="flex justify-between items-center">
           <span class="text-sm text-v-dark-grayish-blue" :class="{ 'font-bold text-v-dark-desaturated-blue': faq.id === activeFAQ }">{{ faq.question }}</span>
           <img class="inline-block mx-4 transition-all" :class="{ 'rotate-180': faq.id === activeFAQ }" src="public/images/icon-arrow-down.svg">

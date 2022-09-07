@@ -21,7 +21,11 @@ module.exports = {
             'v-dark-grayish-blue':'hsl(237, 12%, 33%)',
             'dark-grayish-blue':'hsl(240, 6%, 50%)',
             'light-grayish-blue':'hsl(240, 5%, 91%)'
-        }
+        },
+        backgroundImage: {
+            'card-desktop-pattern':"url('~/images/bg-pattern-desktop.svg')",
+            'card-mobile-pattern':"url('~/images/bg-pattern-mobile.svg')"
+        },
     }
   },
   plugins: [],
