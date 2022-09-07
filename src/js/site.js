@@ -1,10 +1,10 @@
 import { createApp } from 'vue'
 import '../css/styles.css'
 
-import hello_world from './components/hello_world.vue'
+import FAQs from './components/FAQs.vue'
 
 const app = createApp({})
 
-app.component('hello-world', hello_world);
+app.component('faq-block', FAQs);
 
 app.mount('#app')
