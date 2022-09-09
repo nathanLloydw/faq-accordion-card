@@ -23,8 +23,8 @@ module.exports = {
             'light-grayish-blue':'hsl(240, 5%, 91%)'
         },
         backgroundImage: {
-            'card-desktop-pattern':"url('/images/bg-pattern-desktop.svg')",
-            'card-mobile-pattern':"url('/images/bg-pattern-mobile.svg')"
+            'card-desktop-pattern':"url('../images/bg-pattern-desktop.svg')",
+            'card-mobile-pattern':"url('../images/bg-pattern-mobile.svg')"
         },
     }
   },

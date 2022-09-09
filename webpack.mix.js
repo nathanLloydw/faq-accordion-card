@@ -12,6 +12,7 @@ const mix = require('laravel-mix');
 
 mix.js('src/js/site.js', 'public/js')
     .vue()
+    .options({ processCssUrls: false })
     .postCss('src/css/styles.css', 'public/css', [
     require('postcss-import'),
     require('tailwindcss/nesting'),
