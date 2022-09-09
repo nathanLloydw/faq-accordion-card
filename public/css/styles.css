@@ -759,13 +759,13 @@ h1{
 .img-drop-shadow { filter: drop-shadow(0px 20px 10px #00000047); }
 
 .card-bg-pattern{
-  background-image: url(/images/bg-pattern-desktop.svg?f51e07a2f52390c60484dd7a5bc7d842); background-size: 256% 193%;background-position: right 65%;background-repeat: no-repeat;
+  background-image: url('/images/bg-pattern-desktop.svg'); background-size: 256% 193%;background-position: right 65%;background-repeat: no-repeat;
 }
 
 @media only screen and (max-width: 768px)
 {
     .card-bg-pattern{
-    background-image: url(/images/bg-pattern-mobile.svg?55aee9128a769eedabec262efb8ace48); background-position: bottom;background-size: 60%;
+    background-image: url('/images/bg-pattern-mobile.svg'); background-position: bottom;background-size: 60%;
   }
 }
 
